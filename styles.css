@@ -101,6 +101,15 @@ h1 {
   cursor: pointer;
 }
 
+#restart {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  color: #475462;
+  background-color: #c0c0c0;
+  top: 400px;
+}
+
 @media screen and (max-width: 500px) {
   .board {
     width: calc(100% - 30px);
